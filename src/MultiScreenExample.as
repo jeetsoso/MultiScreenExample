@@ -91,13 +91,13 @@ package
 			this.addChild(title);
 			
 			// Test Button
-			var button:Sprite = new Sprite();
-			button.x = 20;
-			button.y = 20;
-			button.graphics.beginFill(0xff0000);
-			button.graphics.drawRect(0, 0, this.mmToPixels(10), this.mmToPixels(10));
-			button.graphics.endFill();
-			this.addChild(button);
+//			var button:Sprite = new Sprite();
+//			button.x = 20;
+//			button.y = 20;
+//			button.graphics.beginFill(0xff0000);
+//			button.graphics.drawRect(0, 0, this.mmToPixels(10), this.mmToPixels(10));
+//			button.graphics.endFill();
+//			this.addChild(button);
 			
 			// Test button2
 //			this.dpi = 72;
@@ -109,8 +109,6 @@ package
 //			button2.graphics.endFill();
 //			this.addChild(button2);
 			
-			
-			return;
 			
 			// Display as many blocks on the screen as will fit
 			var blockSize:uint = this.inchesToPixels(BLOCK_SIZE);
