@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/2.0beta2">
+
+	<supportedProfiles>desktop mobileDevice</supportedProfiles>
+
+	<id>com.adobe.multiscreenexample</id>
+	<filename>MultiScreenExample</filename>
+	<name>MultiScreenExample</name>
+	<version>1</version>
+	<!-- <description></description> -->
+	<!-- <copyright></copyright> -->
+
+	<initialWindow>
+
+		<autoOrients>true</autoOrients>
+		<fullScreen>false</fullScreen>
+		<aspectRatio>portrait</aspectRatio>
+		<content>MultiScreenExample.swf</content>
+		<!-- <title></title> -->
+		<systemChrome>standard</systemChrome>
+		<!-- <transparent></transparent> -->
+		<visible>true</visible>
+		<!-- <minimizable></minimizable> -->
+		<!-- <maximizable></maximizable> -->
+		<resizable>true</resizable>
+		
+		<!-- Desktop -->
+		<width>320</width>
+		<height>480</height>
+		
+		<!-- iPhone -->
+		<!--
+		<width>320</width>
+		<height>480</height>
+		-->
+		
+		<!-- Droid -->
+		<!--
+		<width>480</width>
+		<height>854</height>
+		-->
+
+		<!-- <x></x> -->
+		<!-- <y></y> -->
+		<!-- <minSize></minSize> -->
+		<!-- <maxSize></maxSize> -->
+	</initialWindow>
+
+	<!-- <installFolder></installFolder> -->
+	<!-- <programMenuFolder></programMenuFolder> -->
+	<!--icon>
+		<image57x57>/assets/Icon.png</image57x57>
+	</icon-->
+
+</application>
