@@ -17,7 +17,7 @@ package
 	{
 		private const TITLE_BAR_HEIGHT:Number = .3; // Height of the title bar in fractions of an inch
 		private const TITLE_FONT_SIZE:Number  = .15; // Height of the title font in fractions of an inch
-		private const BLOCK_SIZE:Number       = .25; // Size of blocks in fractions of an inch
+		private const BLOCK_SIZE:Number       = .5; // Size of blocks in fractions of an inch
 		private const BLOCK_BUFFER:Number     = 3; // Space between blocks in pixels
 		
 		private const BACKGROUND_COLOR:uint   = 0x006E59;
@@ -48,16 +48,12 @@ package
 			while (this.numChildren > 0) this.removeChildAt(0);
 			
 			// TBD: Remove for code sample. Work around for DPI bug.
-			this.dpi = 83; // External Dell monitor
+			//this.dpi = 83; // External Dell monitor
 			//this.dpi = 110; // 15" MacBook Pro
 			//this.dpi = 163; // iPhone
 			//this.dpi = 265; // Android
-			//this.dpi = Capabilities.screenDPI;
+			this.dpi = Capabilities.screenDPI;
 			
-			
-			trace(this.inchesToPixels(1));
-			trace(this.mmToPixels(25.4));
-
 			
 			// Background.
 			var bg:Sprite = new Sprite();
