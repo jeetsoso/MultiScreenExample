@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<application xmlns="http://ns.adobe.com/air/application/2.0beta2">
+<application xmlns="http://ns.adobe.com/air/application/2.0">
 
 	<supportedProfiles>desktop mobileDevice</supportedProfiles>
 
@@ -22,7 +22,7 @@
 		<visible>true</visible>
 		<!-- <minimizable></minimizable> -->
 		<!-- <maximizable></maximizable> -->
-		<resizable>true</resizable>
+		<resizable>false</resizable>
 		
 		<!-- Desktop -->
 		<width>320</width>
